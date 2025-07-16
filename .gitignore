@@ -1,0 +1,51 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración y logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de datos temporales
+*.sqlite3
+*.db
+*.h5
+*.hdf5
+*.csv
+*.tsv
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
+
+# Archivos de salida de modelos
+models/
+checkpoints/
+outputs/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.docs/*
+
+# Otros
+.DS_Store
+Thumbs.db
